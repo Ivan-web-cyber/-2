@@ -1,0 +1,100 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Шапка */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Основное содержимое */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+/* Подвал */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; /* Убирает двойные линии между ячейками */
+    border-spacing: 0 20px; /* Отступы между строками (0 по горизонтали, 20px по вертикали) */
+}
+
+table th, table td {
+    padding: 15px; /* Отступы внутри ячеек */
+    border: 1px solid #ccc; /* Границы ячеек */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; /* Убирает двойные линии между ячейками */
+    border-spacing: 0 20px; /* Отступы между строками (0 по горизонтали, 20px по вертикали) */
+}
+
+table th, table td {
+    padding: 15px; /* Отступы внутри ячеек */
+    border: 1px solid #ccc; /* Границы ячеек */
+    background-color: #f9f9f9; /* Цвет фона для ячеек */
+}
+
+table th {
+    background-color: #4CAF50; /* Цвет фона для заголовков */
+    color: white; /* Цвет текста заголовков */
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
